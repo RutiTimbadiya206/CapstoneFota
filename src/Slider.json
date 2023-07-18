@@ -1,0 +1,19 @@
+[
+
+    {
+        "image" : "https://images.hdqwalls.com/wallpapers/waterfall-rocks-4k-ch.jpg",
+        "title" : "first",
+        "subcontent" : "content of first slide"
+    },
+    {
+        "image" : "https://images.hdqwalls.com/wallpapers/waterfall-rocks-4k-ch.jpg",
+        "title" : "second",
+        "subcontent" : "content of second slide"
+    },
+    {
+        "image" : "https://images.hdqwalls.com/wallpapers/waterfall-rocks-4k-ch.jpg",
+        "title" : "third",
+        "subcontent" : "Content of third slide"
+    }
+ 
+]

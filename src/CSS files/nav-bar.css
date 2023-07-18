@@ -1,0 +1,56 @@
+.Nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #0F3F34;
+}
+
+.Nav-bar img {
+    height: 25px;
+    /* animation: logoAnimation 1s infinite alternate; */
+}
+
+@keyframes logoAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.Nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 220px;
+    animation: slideInAnimation 2s forwards;
+}
+
+@keyframes slideInAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.Nav-bar li svg {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.Nav-bar li {
+    margin-right: 16px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.Nav-bar li:hover {
+    color: #19BC1B;
+}
